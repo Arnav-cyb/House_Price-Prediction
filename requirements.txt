@@ -12,3 +12,4 @@ reportlab>=3.6.0
 nbformat>=5.0.0
 ipykernel>=6.0.0
 PyYAML
+pydeck
