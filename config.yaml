@@ -1,0 +1,53 @@
+paths:
+  raw_data: "data/housing.csv"
+  processed_data: "data/housing_processed.csv"
+  pipeline_pkl: "models/housing_pipeline.pkl"
+  comparison_csv: "models/model_comparison.csv"
+  experiment_json: "models/experiment_log.json"
+  best_model_name: "models/best_model_name.txt"
+
+split_params:
+  test_size: 0.2
+  random_state: 42
+  cv_splits: 5
+
+outliers:
+  iqr_factor: 1.5
+
+growth_rates:
+  Rural: 0.04
+  Suburbs: 0.06
+  Standard: 0.08
+  Downtown: 0.10
+  Premium: 0.12
+
+geospatial:
+  Rural:
+    lat: 18.9200
+    lon: 72.8100
+  Suburbs:
+    lat: 18.9800
+    lon: 72.8350
+  Standard:
+    lat: 19.0300
+    lon: 72.8600
+  Downtown:
+    lat: 19.0750
+    lon: 72.8770
+  Premium:
+    lat: 19.1200
+    lon: 72.9100
+
+tuning_params:
+  n_iter: 8
+  cv: 3
+  rf_grid:
+    n_estimators: [100, 200]
+    max_depth: [10, 15, null]
+    min_samples_split: [2, 5]
+    min_samples_leaf: [1, 2]
+  xgb_grid:
+    n_estimators: [100, 200]
+    max_depth: [3, 5, 7]
+    learning_rate: [0.03, 0.1, 0.2]
+    subsample: [0.8, 1.0]
