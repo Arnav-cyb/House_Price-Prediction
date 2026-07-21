@@ -1,0 +1,314 @@
+[
+    {
+        "timestamp": "2026-07-17 12:19:26",
+        "model_name": "Linear Regression",
+        "cv_r2_mean": 0.8925694590901715,
+        "cv_r2_std": 0.0332606750886296,
+        "cv_mae_mean": 50612.39751012926,
+        "cv_mae_std": 2885.9281760231247,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:19:28",
+        "model_name": "Ridge Regression",
+        "cv_r2_mean": 0.8925728617892318,
+        "cv_r2_std": 0.03306031799883422,
+        "cv_mae_mean": 50675.40579160517,
+        "cv_mae_std": 2813.7431058854763,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:19:31",
+        "model_name": "Decision Tree",
+        "cv_r2_mean": 0.7473773326012185,
+        "cv_r2_std": 0.018452327114614822,
+        "cv_mae_mean": 84998.54272830466,
+        "cv_mae_std": 2844.6223150250944,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:19:34",
+        "model_name": "Random Forest",
+        "cv_r2_mean": 0.8757467393789875,
+        "cv_r2_std": 0.02683260068371361,
+        "cv_mae_mean": 58227.998957825745,
+        "cv_mae_std": 1152.3898738896887,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:19:35",
+        "model_name": "Gradient Boosting",
+        "cv_r2_mean": 0.8858499556941195,
+        "cv_r2_std": 0.028217818697712015,
+        "cv_mae_mean": 52848.05380991185,
+        "cv_mae_std": 1444.8383043285596,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:19:36",
+        "model_name": "XGBoost",
+        "cv_r2_mean": 0.8689390733423789,
+        "cv_r2_std": 0.029505723390957007,
+        "cv_mae_mean": 58593.73113077778,
+        "cv_mae_std": 1617.8124810709671,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:19:37",
+        "model_name": "SVR",
+        "cv_r2_mean": 0.8625068297554925,
+        "cv_r2_std": 0.020586099533491754,
+        "cv_mae_mean": 61228.165863704206,
+        "cv_mae_std": 2433.2627532991964,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:19:37",
+        "model_name": "KNN Regressor",
+        "cv_r2_mean": 0.534686088430494,
+        "cv_r2_std": 0.016353654759398446,
+        "cv_mae_mean": 136462.695447396,
+        "cv_mae_std": 4208.149921735683,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:20:06",
+        "model_name": "Stacking Ensemble",
+        "cv_r2_mean": 0.8940285770944534,
+        "cv_r2_std": 0.03229104249628555,
+        "cv_mae_mean": 49903.6583793529,
+        "cv_mae_std": 2186.8209238025293,
+        "parameters": {
+            "estimators": [
+                "Tuned RF",
+                "Tuned XGBoost",
+                "GradientBoosting"
+            ],
+            "final_estimator": "Ridge"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:38:21",
+        "model_name": "Linear Regression",
+        "cv_r2_mean": 0.9053127158208442,
+        "cv_r2_std": 0.03262920763162882,
+        "cv_mae_mean": 48322.10668374515,
+        "cv_mae_std": 5127.846042904864,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:38:23",
+        "model_name": "Ridge Regression",
+        "cv_r2_mean": 0.9052995464326352,
+        "cv_r2_std": 0.03258138065784483,
+        "cv_mae_mean": 48366.40094874751,
+        "cv_mae_std": 5117.681812505986,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:38:25",
+        "model_name": "Decision Tree",
+        "cv_r2_mean": 0.7452693646116348,
+        "cv_r2_std": 0.05413768905187748,
+        "cv_mae_mean": 86610.99611642453,
+        "cv_mae_std": 4510.5789425611665,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:38:28",
+        "model_name": "Random Forest",
+        "cv_r2_mean": 0.8906674317709496,
+        "cv_r2_std": 0.028808400935095648,
+        "cv_mae_mean": 55935.84759349872,
+        "cv_mae_std": 4221.797101477188,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:38:28",
+        "model_name": "Gradient Boosting",
+        "cv_r2_mean": 0.9046128122378244,
+        "cv_r2_std": 0.032953557965083334,
+        "cv_mae_mean": 49943.411820713634,
+        "cv_mae_std": 5420.074898410227,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:38:29",
+        "model_name": "XGBoost",
+        "cv_r2_mean": 0.8834622026308432,
+        "cv_r2_std": 0.028978985839276303,
+        "cv_mae_mean": 56647.48400998013,
+        "cv_mae_std": 4546.353408479707,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:38:30",
+        "model_name": "SVR",
+        "cv_r2_mean": 0.8701770164427144,
+        "cv_r2_std": 0.03361513041421615,
+        "cv_mae_mean": 59385.69183632999,
+        "cv_mae_std": 6096.834476253598,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:38:30",
+        "model_name": "KNN Regressor",
+        "cv_r2_mean": 0.5537543238210025,
+        "cv_r2_std": 0.02968801583014537,
+        "cv_mae_mean": 130261.7108202064,
+        "cv_mae_std": 8513.764357666738,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-17 12:39:05",
+        "model_name": "Stacking Ensemble",
+        "cv_r2_mean": 0.9082944622560243,
+        "cv_r2_std": 0.033635330423591,
+        "cv_mae_mean": 47536.139651232166,
+        "cv_mae_std": 5342.87376059487,
+        "parameters": {
+            "estimators": [
+                "Tuned RF",
+                "Tuned XGBoost",
+                "GradientBoosting"
+            ],
+            "final_estimator": "Ridge"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:09",
+        "model_name": "Linear Regression",
+        "cv_r2_mean": 0.9053127158208442,
+        "cv_r2_std": 0.0326292076316288,
+        "cv_mae_mean": 48322.10668374515,
+        "cv_mae_std": 5127.8460429048655,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:12",
+        "model_name": "Ridge Regression",
+        "cv_r2_mean": 0.9052995464326352,
+        "cv_r2_std": 0.03258138065784486,
+        "cv_mae_mean": 48366.40094874752,
+        "cv_mae_std": 5117.681812505993,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:16",
+        "model_name": "Decision Tree",
+        "cv_r2_mean": 0.7452693646116348,
+        "cv_r2_std": 0.05413768905187748,
+        "cv_mae_mean": 86610.99611642453,
+        "cv_mae_std": 4510.5789425611665,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:21",
+        "model_name": "Random Forest",
+        "cv_r2_mean": 0.8906674317709496,
+        "cv_r2_std": 0.028808400935095648,
+        "cv_mae_mean": 55935.84759349872,
+        "cv_mae_std": 4221.797101477188,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:22",
+        "model_name": "Gradient Boosting",
+        "cv_r2_mean": 0.9046128122378244,
+        "cv_r2_std": 0.032953557965083334,
+        "cv_mae_mean": 49943.411820713634,
+        "cv_mae_std": 5420.074898410227,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:23",
+        "model_name": "XGBoost",
+        "cv_r2_mean": 0.8834622026308432,
+        "cv_r2_std": 0.028978985839276303,
+        "cv_mae_mean": 56647.48400998013,
+        "cv_mae_std": 4546.353408479707,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:24",
+        "model_name": "SVR",
+        "cv_r2_mean": 0.8701770164427144,
+        "cv_r2_std": 0.03361513041421615,
+        "cv_mae_mean": 59385.69183632999,
+        "cv_mae_std": 6096.834476253598,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:24",
+        "model_name": "KNN Regressor",
+        "cv_r2_mean": 0.5537543238210025,
+        "cv_r2_std": 0.02968801583014537,
+        "cv_mae_mean": 130261.7108202064,
+        "cv_mae_std": 8513.764357666738,
+        "parameters": {
+            "status": "baseline_cv"
+        }
+    },
+    {
+        "timestamp": "2026-07-19 22:17:59",
+        "model_name": "Stacking Ensemble",
+        "cv_r2_mean": 0.9082944622560243,
+        "cv_r2_std": 0.033635330423591,
+        "cv_mae_mean": 47536.139651232166,
+        "cv_mae_std": 5342.87376059487,
+        "parameters": {
+            "estimators": [
+                "Tuned RF",
+                "Tuned XGBoost",
+                "GradientBoosting"
+            ],
+            "final_estimator": "Ridge"
+        }
+    }
+]
